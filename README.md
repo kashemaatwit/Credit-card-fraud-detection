@@ -8,7 +8,8 @@ The dataset utilized in this project was provided by [Kaggle](https://www.kaggle
 
 Data preview:
 
-![](RackMultipart20201215-4-1e0vmy7_html_5887c207a8b18c1d.png)
+![Data science Final Project 001](https://user-images.githubusercontent.com/65506977/102176439-61eac580-3e6f-11eb-9786-fc953c8cbc47.png)
+
 
 The dataset is highly unbalanced since it has 492 (0.17%) frauds out of 284,807 transactions. All the features in the data set are numeric. Thanks to the confidentiality of the client, the columns have been renamed to V1, V2, ..., V28, and their features have undergone a PCA transformation, which consists of zeroing one or more of the smallest key components, resulting in a lower-dimensional data projection that retains the full data variance. The only two exceptions were the features Time and Number, which included seconds elapsed between each transaction and the first transaction in the dataset, and the transaction amount, respectively.
 
