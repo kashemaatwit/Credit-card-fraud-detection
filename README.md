@@ -89,5 +89,16 @@ The biggest drawback from this analysis is the occurrence of false positive. The
 
 The most important finding is data after the preprocessing and balancing because with these two tasks I would have entirely different model which would be way less accurate. In addition the accuracy and precise score for detecting fraudulent and regular transaction using logistic regression and decision tree was most important finding because it was my research question and after my analysis I got satisfactory results.
 
+**Reference**
+
+ Logistic Regression
+Decision Tree
+Confusion Matrix
+Training and Test
+Balanced Data
+Credit Card Fraud
+
+
+
 
 
