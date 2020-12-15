@@ -24,7 +24,7 @@ Tools:
 
 Inference methods used with Scikit:
 
-- Linear regression model
+- Logistic regression model
 - Decision Tree
 - Test and train
 - Confusion Matrix 
