@@ -30,7 +30,8 @@ Inference methods used with Scikit:
 
 **Result**
 
-![](RackMultipart20201215-4-1e0vmy7_html_25ed81dad224eef1.png)
+![Data science Final Project 002](https://user-images.githubusercontent.com/65506977/102176785-243a6c80-3e70-11eb-933d-621d05b96d69.png)
+
 
 We start with analyzing the correlation between the variables. As we can see we did not observe any strong correlation between the variables. That is because our data is highly unbalanced. After preprocessing the data, we should see a better-looking correlation matrix.
 
@@ -38,13 +39,14 @@ We start with analyzing the correlation between the variables. As we can see we 
 
 In order to make sure the data is easily interpreted by the machine language I used StandarScaler library to have a mean value 0 and standard deviation of 1
 
-![](RackMultipart20201215-4-1e0vmy7_html_48aec73b39874e89.png)
+![Data science Final Project 003](https://user-images.githubusercontent.com/65506977/102176684-f3f2ce00-3e6f-11eb-8353-71a49ebdcd20.png)
+
 
 **Training and test set:**
 
 The reason for using training and testing data set is because I can minimize the effects of data discrepancies and better understand the characteristics of the model. Once I process the model by using training set, I can test the model by making predictions against the test set.
 
-![](RackMultipart20201215-4-1e0vmy7_html_2b972e1488c2e58e.png)
+![Data science Final Project 004](https://user-images.githubusercontent.com/65506977/102176855-4b913980-3e70-11eb-8470-c42fd592833d.png)
 
 Here I did split my dataset into train and test data. The size of the test data is 0.25, the default value.
 
@@ -52,9 +54,10 @@ Here I did split my dataset into train and test data. The size of the test data 
 
 As the dataset indicates and also I mentioned it earlier that this dataset is highly unbalanced and therefore our training dataset could be biased and machine learning algorithm could display unsatisfactory results. To make sure I do not get biased results I used RandomUnderSampler() to randomly balance the data
 
-![](RackMultipart20201215-4-1e0vmy7_html_55d7ec8fecce3b43.png)
+![Data science Final Project 005](https://user-images.githubusercontent.com/65506977/102176918-682d7180-3e70-11eb-9a42-91fb685596e6.png)
 
-![](RackMultipart20201215-4-1e0vmy7_html_bb3d6beba00fe672.png)
+
+![Data science Final Project 006](https://user-images.githubusercontent.com/65506977/102176952-79767e00-3e70-11eb-8e04-13f2271bea3f.png)
 
 As we see on the balanced graph that both class 0 and 1 has 351 entries where unbalanced dataset has 284315 entries for class 0 and 492 for class 1. Since dataset is balanced now, I would not have biased and unsatisfactory results when I use machine learning algorithm.
 
@@ -62,13 +65,14 @@ As we see on the balanced graph that both class 0 and 1 has 351 entries where un
 
 Logistic Regression is a Machine Learning algorithm which is used for the classification problems, it is a predictive analysis algorithm and based on the concept of probability. In our case, it will establish the probability of a transaction belonging to Class 0 or 1, which is regular or fraudulent.
 
-![](RackMultipart20201215-4-1e0vmy7_html_2269cdef0b0de0e8.png)
+![Data science Final Project 007](https://user-images.githubusercontent.com/65506977/102176981-8d21e480-3e70-11eb-83f7-10814abd4c26.png)
+
 
 In terms of quality of prediction, the model has an accuracy of 98% and ROC AUC score of 94%. This model shows that my logistic regression model performed really well. From the confusion matrix I concluded that 98% of regular transaction were correctly predicted as regular and 90% of fraudulent transaction were correctly predicted as frauds.
 
 **Decision Tree:**
 
-![](RackMultipart20201215-4-1e0vmy7_html_e56679a28b466894.png)
+![Data science Final Project 008](https://user-images.githubusercontent.com/65506977/102177009-a0cd4b00-3e70-11eb-8b4f-c0141c85ab2f.png)
 
 In terms of quality of prediction, the Decision tree model has an accuracy of 89% and ROC AUC score of 93%. This model shows that my Decision tree model performed good but not as good as logistic regression. From the confusion matrix I concluded that 89% of regular transaction were correctly predicted as regular and 98% of fraudulent transaction were correctly predicted as frauds.
 
