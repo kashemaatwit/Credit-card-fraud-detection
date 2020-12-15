@@ -25,7 +25,7 @@ Inference methods used with Scikit:
 - Linear regression model
 - Decision Tree
 - Test and train
-- Confusion Matrix
+- Confusion Matrix 
 
 **Result**
 
